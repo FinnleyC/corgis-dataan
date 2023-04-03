@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+
+{% set active_page = "res" %}
+
+{% block title %}CORGIS Research{% endblock %}
+
+{% block content %}
+    <!--page content-->
+	<h1>Research Project:</h1>
+	<a href="https://think.cs.vt.edu/corgis/json/cars/">Dataset Used</a>
+	<p>The data I used contains information about cars from 2009-2012. It has engine statistics, including miles per gallon and horsepower, along with details about exact size and model type. This left plenty of information to be derived from the data, which is the purpose of this website and project for me.</p>
+    <h3>I had a 3 main questions I wanted to answer by analyzing the data:</h3>
+	<hr>
+	<p class="q">1) How many cars are in the dataset?</p>
+	<br class="a">
+	<p class="a">5076 total cars in the dataset</p>
+	<br>
+	<p class="q">2) What brands of car are represented in this dataset?</p>
+	<br class="a">
+	<p class="a">47 brands represented over the 3 year (2009-2012) time span, seemingly all brands of road car are represented.</p>
+	<br>
+	<p class="q">3) What cars had the highest horsepower? (Any supercars in the data? This could result in outliers.)</p>
+	<br class="a">
+	<p class="a">The 2012 Chevrolet Corvette ZR series at 638 horsepower was the highest.</p>
+{% endblock %}

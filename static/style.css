@@ -1,0 +1,46 @@
+.a {
+	background-color: green;
+}
+
+h3 { 
+	text-align: center;
+}
+
+hr {
+	height: 3px;
+	background-color: white;
+	border: none;
+}
+
+body {
+	background-color: black;
+	color: white;
+	font-family: Avenir;
+}
+
+div#content {
+  padding: 10px;
+}
+
+table {
+  color: black;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+

@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+
+{% set active_page = "popularity" %}
+
+{% block title %}Horsepower of Vehicles{% endblock %}
+
+{% block heading %}Horsepower of Vehicles{% endblock %}
+
+{% block content %}
+<h2>Specify a range: (max 638; 638 is highest horsepower in dataset)</h2>
+<form action="/s">
+	<label for="lor">Lower Range Limit:</label><br>
+	<input type="number" id="lor" name="lor" min="0" max="638"><br>
+	<label for="upr">Upper Range Limit:</label><br>
+	<input type="number" id="upr" name="upr" min="0" max="638">
+	<br><br>
+	<input type="submit">
+</form>
+{% endblock %}
